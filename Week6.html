@@ -1,0 +1,232 @@
+<!--Asima jamal
+Task: Graphical User Interface
+Html+Bootstrap Code-->
+
+<!doctype html>
+<html lang="en">
+<!-- Head starts here -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Library For search icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- External Css -->
+    <link rel="stylesheet" href="week6.css">
+    <!-- Title tag -->
+    <title> GUI </title>
+
+    <!-- Head Ends here -->
+</head>
+<!-- Body starts here -->
+
+<body>
+    <!-- Navigation bar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#"><img src="logo1.PNG" alt=""></a>
+
+        <!-- for Collapsable Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Parent div For Navbar menu items -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- unorderd list -->
+            <ul class="navbar-nav mr-auto">
+                <!-- Active item -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <!-- Drowpdown menu with dropdown toggle -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Milkshakes</a>
+                        <a class="dropdown-item" href="#">Icecreams</a><a class="dropdown-item" href="#">Colddrinks</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Contact</a>
+                </li>
+                <!-- menu item for Filling Form  when click on Form the Form page will open  -->
+                <li class="nav-item">
+                    <a class="nav-link" href="Form.html">Form</a>
+                </li>
+
+                <!-- search button search box search icon -->
+                <form class="form-inline ">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-info" type="submit">Go</button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="seacrh">
+                        <div class="input-group-append">
+                            <button class="btn btn-info" type="submit"><i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                        <!-- unordere list ends here -->
+            </ul>
+
+
+            </form>
+            <!-- Parent div end here -->
+        </div>
+        <!-- navbar ends here -->
+    </nav>
+
+    <!-- Jumbotron header -->
+    <div>
+        <div class="  jumbotron bg-gradient">
+            <h1 class=" container display-5 text-warning">You are at the Right Platform for Learning Bootstrap
+            </h1>
+
+
+            <!-- Modal goes here -->
+            <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <!-- Content goes here -->
+                    <div class="modal-content d-box">
+                        <!-- Modal-header -->
+                        <div class="modal-header h-model ">
+                            <h5 class="modal-title " id="exampleModalLabel">Contact us Through contact Form</h5>
+                            <!-- For (x) symbol -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <!-- Modal-body -->
+                        <div class="modal-body b-model ">
+                            <h4>Provide valid info </h4>
+                        </div>
+                        <!-- Modal-footer -->
+                        <div class="modal-footer f-model ">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div Cards-container1 -->
+
+    <div class="container">
+        <!-- display cards in row-->
+        <!-- Row1 -->
+
+        <div class="row">
+            <!-- CARD1 -->
+            <div class="card col-md-3 mx-auto" style=" background-color:rgb(235, 243, 235);">
+                <!-- picture -->
+                <img src="img1.jpg" class="img-thumbnail mt-2 img" alt=" image">
+
+                <!-- card-Body -->
+                <div class="card-body">
+                    <b><span class="font">Product-Title:</span></b><span>Vanilla</span>
+                    <p>One Of the best milkshakes here try it now.</p>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            <!-- CARD2 -->
+            <div class="card col-md-3 mx-auto" style=" background-color:rgb(235, 243, 235);">
+                <img src="img2.jpg" class="img-thumbnail mt-2 img" alt=" image">
+                <div class="card-body">
+                    <b><span class="font">Product-Title:</span></b><span>Oreo</span>
+                    <p>One Of the best milkshakes here try it now.</p>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            <!-- CARD3 -->
+
+            <div class="card col-md-3 mx-auto" style="background-color:rgb(235, 243, 235)">
+                <img src="img3.jpg" class="img-thumbnail mt-2 img" alt="Responsive image">
+                <div class="card-body">
+                    <b><span class="font">Product-Title:</span></b><span>Pepper</span>
+                    <p>One Of the best milkshakes here. try it now.</p>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            <!-- Row 1 completed here -->
+        </div>
+        <!-- Div Cards-container 1 completed here -->
+    </div>
+
+    <!-- Div cards-container2 -->
+    <div class="container my-4">
+        <!-- Row 2 starts here -->
+
+        <div class="row">
+            <!-- Card4 -->
+            <div class="card col-md-3 mx-auto" style=" background-color:rgb(235, 243, 235)">
+                <img src="img4.jpg" class="img-thumbnail mt-2 img" alt=" image">
+                <div class="card-body">
+                    <b><span class="font">Product-Title:</span></b><span>Strawb.</span>
+                    <p>One Of the best milkshakes here try it now.</p>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            <!-- card5 -->
+            <div class="card col-md-3 mx-auto" style=" background-color:rgb(235, 243, 235)">
+                <img src="img5.jpg" class="img-thumbnail mt-2 img" alt="image">
+                <div class="card-body">
+                    <b><span class="font">Product-Title:</span></b><span>DIY</span>
+                    <p>One Of the best milkshakes here try it now.</p>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            <!-- Card6 -->
+            <div class="card col-md-3 mx-auto" style=" background-color:rgb(235, 243, 235)">
+                <img src="img6.jpg" class="img-thumbnail mt-2 img" alt="image">
+                <div class="card-body">
+                    <b><span class="font">Product-Title:</span></b><span>Caramel</span>
+                    <p>One Of the best milkshakes here try it now.</p>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            <!-- Row 2 completed here -->
+        </div>
+
+
+        <!-- Div Cards-Container2 completed here -->
+    </div>
+
+
+
+
+    <!-- Fixed Footer here -->
+    <footer class="blog-footer container-fluid fixed-bottom">
+
+        <div class="font">Developed By Asma &copy;Uet Mardan</div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+/*Asima jamal
+Graphical User Interface
+Css Code for Homepage and Contact-Form */
+
+/* External Css for week6.html and Form.html */
+
+/* Body section */
+        body {
+            background-image: url('bcg.png');
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+/* Navbar */
+       ul li{
+            padding: 1rem;
+        }
+
+       ul li:hover {
+
+            border-bottom: 5px solid darkblue;
+            background-color:darkslateblue;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+                  
+/* class for Jumbotron header */
+        .bg-gradient {
+            background: linear-gradient(to top, #f6f8f8 0%, #9630e9 100%);
+        }
+
+        /* Card- images  */
+  
+        .img {
+            height: 200px;
+        }
+
+        
+/* For More card'content */
+        span {
+        
+            font-style: oblique;
+            padding: 5px;
+            color: darkblue;
+        }
+
+       
+/* For all buttons  */
+        .btn{
+             background: linear-gradient(to left, #e70d94 0%, #082d3f 100%);
+            
+    }
+
+ /* For Modal-Dialog-Box */
+        .d-box{
+        
+        border: 4px solid darkgreen;
+    }
+
+       .h-model{                                /*Modal-header */
+        background-color: burlywood;
+        color:darkblue;
+        font-style: italic;
+      
+    }
+     .b-model{
+         background-color:wheat;            /*Modal-body */
+         color: #e70d94;
+         font-style: oblique;
+    }
+   .f-model{
+     background-color: darkkhaki;          /*Modal-footer*/
+     justify-content: center;
+    }
+/* main-Footer */
+     footer{
+
+            text-align: center;
+            padding: 7px;
+            background: linear-gradient(to left, #ca204a 0%, #f9f9fa 100%);
+             font-size: 20px;
+            font-style: italic;
+            font-weight: 800;
+             
+    }
+
+ /* For Contat Form Content */
+     .font{
+            font-size: 20px;
+            font-weight: 800;
+            font-style: italic;
+        } 
+
+        
